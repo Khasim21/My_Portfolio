@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/framer-motion/4.1.17/framer-motion.umd.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="side-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <img
+            src="DarkMode.png"
+            alt="Toggle Dark Mode"
+            class="dark-mode-switch"
+          />
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="landing">
+      <div class="overlay">
+        <h2 class="animate-text">Khasim Akram Syed</h2>
+        <p class="animate-text">
+          Innovating at the intersection of cloud computing and cybersecurity
+        </p>
+      </div>
+      <img src="Khasim.png" alt="Professional Image" id="landing-image" />
+      <div class="landing-text">
+        <h1 class="animate-text">Welcome to My Portfolio</h1>
+        <p class="animate-text">Scroll down to see more</p>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" data-aos="fade-up">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        Hello, I'm Khasim Akram Syed, a seasoned professional with a solid
+        background in cloud computing and cybersecurity. With a degree in
+        Information Technology from the University of Wollongong in Dubai, I
+        have honed my skills in data analysis, risk management, and digital
+        security.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" data-aos="fade-up">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <p>Cloud Architecture</p>
+        </div>
+        <div class="skill-box">
+          <p>Cybersecurity</p>
+        </div>
+        <div class="skill-box">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-box">
+          <p>Python</p>
+        </div>
+        <div class="skill-box">
+          <p>HTML & CSS</p>
+        </div>
+        <div class="skill-box">
+          <p>Java</p>
+        </div>
+        <div class="skill-box">
+          <p>SQL</p>
+        </div>
+        <div class="skill-box">
+          <p>Data Analysis</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Projects -->
+    <section id="projects" data-aos="fade-up">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Project Pivot</h3>
+          <p>
+            A revolutionary web application for efficient project management
+          </p>
+          <div class="project-details">
+            <h4>Technologies Used:</h4>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MySQL for robust data storage</li>
+              <li>JavaScript and JSON for dynamic content management</li>
+              <li>RESTful API architecture</li>
+            </ul>
+            <p>
+              Project Pivot is a comprehensive project management tool that
+              showcases my proficiency in full-stack development. It features
+              real-time collaboration, intuitive task tracking, and data
+              visualization capabilities that demonstrate my ability to create
+              scalable and user-friendly applications. This project highlights
+              my skills in database design, server-side programming, and
+              creating responsive user interfaces.
+            </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Details about the second project.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" data-aos="fade-up">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contact-form">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Connect with me on social media</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="instagram.png" alt="Instagram"
+        /></a>
+        <a href="https://github.com/" target="_blank"
+          ><img src="githubv3.png" alt="GitHub"
+        /></a>
+        <a href="https://www.linkedin.com/" target="_blank"
+          ><img src="linkedin.png" alt="LinkedIn"
+        /></a>
+        <a href="https://x.com/" target="_blank"
+          ><img src="xv3.png" alt="Twitter"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
